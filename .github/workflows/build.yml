@@ -1,19 +1,14 @@
-name: Build
-
-on:
-  push:
-    branches: [ develop ]
-  pull_request:
-    branches: [ develop ]
+name: Remote Dispatch Action Initiator
+#test
+on: [push]
 
 jobs:
-  build:
+  ping-pong:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: 10.x
-    - run: npm ci
-    - run: npm run test:lint
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2.0.1
+        with:
+          token: ${{ secrets.t }}
+          event-type: update
+          repository: PenguinMod/PenguinMod-Gui
