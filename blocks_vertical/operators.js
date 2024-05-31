@@ -485,7 +485,7 @@ Blockly.Blocks['operator_join'] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -513,7 +513,7 @@ Blockly.Blocks['operator_join3'] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -537,7 +537,7 @@ Blockly.Blocks['operator_letter_of'] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -557,7 +557,7 @@ Blockly.Blocks['operator_length'] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -581,7 +581,7 @@ Blockly.Blocks['operator_contains'] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_boolean"]
+      "extensions": ["colours_strings", "output_boolean"]
     });
   }
 };
@@ -713,7 +713,7 @@ Blockly.Blocks["operator_regexmatch"] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -738,7 +738,7 @@ Blockly.Blocks["operator_replaceAll"] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -763,7 +763,7 @@ Blockly.Blocks["operator_replaceFirst"] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -788,7 +788,7 @@ Blockly.Blocks["operator_getLettersFromIndexToIndexInText"] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -809,7 +809,7 @@ Blockly.Blocks["operator_readLineInMultilineText"] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -821,7 +821,7 @@ Blockly.Blocks["operator_newLine"] = {
       "message0": "new line",
       "args0": [],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -833,7 +833,7 @@ Blockly.Blocks["operator_tabCharacter"] = {
       "message0": "tab character",
       "args0": [],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -850,7 +850,7 @@ Blockly.Blocks["operator_stringify"] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -884,7 +884,7 @@ Blockly.Blocks["operator_character_to_code"] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_number"]
+      "extensions": ["colours_strings", "output_number"]
     });
   }
 };
@@ -901,7 +901,7 @@ Blockly.Blocks["operator_code_to_character"] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
@@ -1038,7 +1038,7 @@ Blockly.Blocks["operator_indexOfTextInText"] = {
         }
       ],
       "category": Blockly.Categories.operator,
-      "extensions": ["colours_operators", "output_number"]
+      "extensions": ["colours_strings", "output_number"]
     });
   }
 };
@@ -1059,7 +1059,7 @@ Blockly.Blocks["operator_lastIndexOfTextInText"] = {
         }
       ],
       "category": Blockly.Categories.operator,
-      "extensions": ["colours_operators", "output_number"]
+      "extensions": ["colours_strings", "output_number"]
     });
   }
 };
@@ -1080,7 +1080,7 @@ Blockly.Blocks["operator_countAppearTimes"] = {
         }
       ],
       "category": Blockly.Categories.operator,
-      "extensions": ["colours_operators", "output_number"]
+      "extensions": ["colours_strings", "output_number"]
     });
   }
 };
@@ -1101,7 +1101,7 @@ Blockly.Blocks["operator_textIncludesLetterFrom"] = {
         }
       ],
       "category": Blockly.Categories.operator,
-      "extensions": ["colours_operators", "output_boolean"]
+      "extensions": ["colours_strings", "output_boolean"]
     });
   }
 };
@@ -1130,7 +1130,7 @@ Blockly.Blocks["operator_textStartsOrEndsWith"] = {
         }
       ],
       "category": Blockly.Categories.operator,
-      "extensions": ["colours_operators", "output_boolean"]
+      "extensions": ["colours_strings", "output_boolean"]
     });
   }
 };
@@ -1155,7 +1155,7 @@ Blockly.Blocks["operator_toUpperLowerCase"] = {
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_string"]
+      "extensions": ["colours_strings", "output_string"]
     });
   }
 };
