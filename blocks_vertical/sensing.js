@@ -302,6 +302,103 @@ Blockly.Blocks['sensing_keyhit'] = {
   }
 };
 
+Blockly.Blocks['sensing_unixtimestamp'] = {
+  /**
+   * espresso: literally just the unix timestamp
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": 'unix timestamp',
+      "category": Blockly.Categories.sensing,
+      "extensions": ["colours_sensing", "output_number"]
+    })
+  }
+}
+
+Blockly.Blocks['sensing_uploaddata'] = {
+  /**
+   * espresso: Block to upload data to Espresso's dumobase instance
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": 'upload data to cloud with key %1 and value %2',
+      "args0": [
+        {
+          "type": 'input_value',
+          "name": "DATA_KEY"
+        },
+        {
+          "type": 'input_value',
+          "name": "DATA_VALUE"
+        },
+      ],
+      "category": Blockly.Categories.sensing,
+      "extensions": ["colours_sensing", "shape_statement"]
+    });
+  }
+};
+
+Blockly.Blocks['sensing_uploaddatalocal'] = {
+  /**
+   * espresso: Upload data but it saves to localstorage rather then the dumobase instance
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": 'set data locally with key %1 and value %2',
+      "args0": [
+        {
+          "type": 'input_value',
+          "name": "DATA_KEY"
+        },
+        {
+          "type": 'input_value',
+          "name": "DATA_VALUE"
+        },
+      ],
+      "category": Blockly.Categories.sensing,
+      "extensions": ["colours_sensing", "shape_statement"]
+    });
+  }
+}
+
+Blockly.Blocks['sensing_getdata'] = {
+  /**
+   * espresso: Block to get data from Espresso's dumobase instance
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": 'get data from cloud with key %1',
+      "args0": [
+        {
+          "type": 'input_value',
+          "name": "DATA_KEY"
+        }
+      ],
+      "category": Blockly.Categories.sensing,
+      "extensions": ["colours_sensing", "output_string"]
+    });
+  }
+};
+
+Blockly.Blocks['sensing_getdatalocal'] = {
+  /**
+   * espresso: Block to get data from localstorage
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": 'get data locally with key %1',
+      "args0": [
+        {
+          "type": 'input_value',
+          "name": "DATA_KEY"
+        }
+      ],
+      "category": Blockly.Categories.sensing,
+      "extensions": ["colours_sensing", "output_string"]
+    });
+  }
+};
+
 Blockly.Blocks['sensing_mousescrolling'] = {
   /**
    * pm: Block to report if the mouse is scrolling in a direction.
