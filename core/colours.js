@@ -55,6 +55,11 @@ Blockly.Colours = {
     "secondary": "#47A8D1",
     "tertiary": "#2E8EB8"
   },
+  "strings": {
+    "primary": "#32a895",
+    "secondary": "#278273",
+    "tertiary": "#154a41"
+  },
   "pen": {
     "primary": "#0fBD8C",
     "secondary": "#0DA57A",
